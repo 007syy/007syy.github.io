@@ -16,7 +16,7 @@
 <meta property="og:description" content="Python信息中考知识点整理python其实并不难，来来回回也就只有5个知识点，只要掌握就很简单  Python 5大知识点 变量 输入 判断 循环 输出  其实这就是写一个程序用到的5个算法      1.变量 变量定义 变量赋值 变量运算     基本概念变量其实就是一个容器，用来存放数据。 数据不同，容器也就不同。 就像我们用杯子装水，用碗盛饭。 这里的水和饭就是数据，杯子和碗就是变量。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-02-19T06:36:27.000Z">
-<meta property="article:modified_time" content="2022-02-19T11:20:57.444Z">
+<meta property="article:modified_time" content="2022-02-19T11:41:14.917Z">
 <meta property="article:author" content="羽琳">
 <meta name="twitter:card" content="summary">
   
@@ -222,7 +222,7 @@
 <p>Python会在你<code>定义变量</code>时自动为你调整好<code>变量类型</code></p>
 <br/>
 
-<h4 id="例如："><a href="#例如：" class="headerlink" title="例如："></a>例如：</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">123</span>         &lt;--定义了一个整数变量，并且向变量里存入了<span class="number">123</span></span><br><span class="line">b=<span class="string">&quot;abc&quot;</span>       &lt;--定义了一个字符串变量，并且向变量里存入了abc</span><br><span class="line">c=<span class="number">3.14</span>        &lt;--定义了一个小数变量，并且向变量里存入了<span class="number">3.14</span></span><br></pre></td></tr></table></figure>
+<h4 id="例如："><a href="#例如：" class="headerlink" title="例如："></a>例如：</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">123</span>         &lt;--定义了一个整数变量，并且向变量里存入了<span class="number">123</span></span><br><span class="line">b=<span class="string">&quot;abc&quot;</span>       &lt;--定义了一个字符串变量，并且向变量里存入了abc（字符串要用双引号引起来）</span><br><span class="line">c=<span class="number">3.14</span>        &lt;--定义了一个小数变量，并且向变量里存入了<span class="number">3.14</span></span><br></pre></td></tr></table></figure>
 
 <p>到这里，我们完成了两步<code>变量定义</code>和<code>变量赋值</code></p>
 <p><code>变量定义</code>我们知道了，就是设一个未知数</p>
@@ -297,14 +297,57 @@
 <br/>
 
 
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>( [判断] ):</span><br><span class="line">    [成立执行的命令]</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    [不成立执行的命令]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>( [判断] ):</span><br><span class="line">    [成立执行的代码]</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    [不成立执行的代码]</span><br></pre></td></tr></table></figure>
 
 <p>或者</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>( [判断] ):</span><br><span class="line">    [成立执行的命令]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>( [判断] ):</span><br><span class="line">    [成立执行的代码]</span><br></pre></td></tr></table></figure>
 
 <br/>
 
-<h2 id="到此，恭喜你学会了判断相关知识"><a href="#到此，恭喜你学会了判断相关知识" class="headerlink" title="到此，恭喜你学会了判断相关知识"></a>到此，恭喜你学会了判断相关知识</h2>
+<h2 id="到此，恭喜你学会了判断相关知识"><a href="#到此，恭喜你学会了判断相关知识" class="headerlink" title="到此，恭喜你学会了判断相关知识"></a>到此，恭喜你学会了判断相关知识</h2><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h1 id="4-循环"><a href="#4-循环" class="headerlink" title="4.循环"></a>4.<strong>循环</strong></h1><p>循环：重复执行特定代码</p>
+<p>循环稍微有点麻烦，但是也不算太难</p>
+<p>上代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">0</span></span><br><span class="line">b=<span class="number">1</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">5</span>):      &lt;--定义变量i，i的值为<span class="number">1</span>，执行完下面的代码后重进循环，并且i+<span class="number">1</span>，直到i≥<span class="number">5</span>时退出循环</span><br><span class="line">    a=a+b</span><br></pre></td></tr></table></figure>
+<p>上面这段程序 a的结果为4</p>
+<br/>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">0</span></span><br><span class="line">b=<span class="number">1</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">5</span>,<span class="number">2</span>):    &lt;--定义变量i，i的值为<span class="number">1</span>，执行完下面的代码后重进循环，并且i+<span class="number">2</span>，直到i≥<span class="number">5</span>时退出循环</span><br><span class="line">    a=a+b</span><br></pre></td></tr></table></figure>
+<p>上面这段程序 a的结果为2</p>
+<br/>
+
+<h2 id="到此，恭喜你学会了判断相关知识-1"><a href="#到此，恭喜你学会了判断相关知识-1" class="headerlink" title="到此，恭喜你学会了判断相关知识"></a>到此，恭喜你学会了判断相关知识</h2><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h1 id="5-输出"><a href="#5-输出" class="headerlink" title="5.输出"></a>5.<strong>输出</strong></h1><p>输出比输入还简单</p>
+<p>直接上代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(a)</span><br></pre></td></tr></table></figure>
+<p>上面程序输出了1</p>
+<br/>
+<br/>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="string">&quot;abc&quot;</span></span><br><span class="line"><span class="built_in">print</span>(a)</span><br></pre></td></tr></table></figure>
+<p>上面程序输出了abc</p>
+<br/>
+
+<h2 id="到此，恭喜你学会了输出相关知识"><a href="#到此，恭喜你学会了输出相关知识" class="headerlink" title="到此，恭喜你学会了输出相关知识"></a>到此，恭喜你学会了输出相关知识</h2><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<p>感谢您的耐心阅读，本人第一次发布博客，排版并不是特别清晰，但希望本篇文章对您有帮助</p>
+<p>本文采用markdown语言编写，共计331行代码，总共耗时2.5小时</p>
+<p>如本文有误欢迎指出</p>
+
       
 
       

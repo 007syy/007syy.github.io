@@ -258,9 +258,9 @@
 <p>例如：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入整数</span><br><span class="line">a=<span class="built_in">int</span>(<span class="built_in">input</span>())         &lt;--输入一个整数到变量a</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入小数</span><br><span class="line">a=<span class="built_in">float</span>(<span class="built_in">input</span>())         &lt;--输入一个小数到变量a</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入字符串</span><br><span class="line">a=<span class="built_in">str</span>(<span class="built_in">input</span>())         &lt;--输入一个字符串到变量a</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入字符串</span><br><span class="line">a=<span class="built_in">input</span>()              &lt;--输入一个字符串到变量a</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入小数</span><br><span class="line">a=<span class="built_in">float</span>(<span class="built_in">input</span>() )      &lt;--输入一个小数到变量a</span><br></pre></td></tr></table></figure>
 
 <br/>
 
@@ -337,7 +337,11 @@
 <br/>
 
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;abc114514&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p>上面程序输出了abc114514</p>
+<p>上面程序输出了abc114514并且换行</p>
+<p>那如果不想要换行怎么办？</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;abc114514&quot;</span>,end=<span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>这样，换行就被“吃”掉了</p>
 <br/>
 
 <h2 id="到此，恭喜你学会了输出相关知识"><a href="#到此，恭喜你学会了输出相关知识" class="headerlink" title="到此，恭喜你学会了输出相关知识"></a>到此，恭喜你学会了输出相关知识</h2><br/>
